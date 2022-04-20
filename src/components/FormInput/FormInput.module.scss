@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: start;
+    padding-bottom: 10px;
+   
+    span {
+        text-align: center;
+        line-height: 30px;
+        width: 20%;
+    }
+  
+    input {
+        margin: 0 40px;
+        width: 80%;
+        border-radius: 5px;
+    }
+
+    .borderSuccess
+    {
+        border:2px solid #87f787
+    }
+    
+    .borderError
+    {
+        border:2px solid #f78787
+    }
+}
